@@ -1,0 +1,489 @@
+{
+  "users": [
+    {
+      "email": "ingaleharsh956@gmail.com",
+      "password_hash": "$2b$12$Zk7ARasdgItqGLuofD1.wu7HZbZs6kelELwR7hkfWmGecGb0L4rSu",
+      "full_name": "Harsh Ingle",
+      "role": "teacher",
+      "created_at": "2026-05-17T11:53:32.207467+00:00",
+      "_id": "6a09ac3c8de0e73fd4dba1eb",
+      "id": "6a09ac3c8de0e73fd4dba1eb"
+    },
+    {
+      "email": "demo_probe_1779020775@example.com",
+      "password_hash": "$2b$12$W1gh2RKjojm0rUlPtm06x.IoMxX5BMjLRQfcTdOh3iKt4QINPJKBy",
+      "full_name": "Demo Probe",
+      "role": "student",
+      "created_at": "2026-05-17T12:26:15.866338+00:00",
+      "_id": "6a09b3e777a3d245716f56e0",
+      "id": "6a09b3e777a3d245716f56e0"
+    },
+    {
+      "email": "demo_student_1779020775_1@example.com",
+      "password_hash": "$2b$12$0W/o.v3az.usQ.wKVFK/z.PZCcr3YeH3EavTI38Cx.SJEmdNcsiWa",
+      "full_name": "Aarav Sharma",
+      "role": "student",
+      "created_at": "2026-05-17T12:26:16.672889+00:00",
+      "_id": "6a09b3e877a3d245716f56e1",
+      "id": "6a09b3e877a3d245716f56e1"
+    },
+    {
+      "email": "demo_student_1779020775_2@example.com",
+      "password_hash": "$2b$12$E9uN.3PQw.Eb5iaJCbZdYeFv5OB3aXhDAddjyCvx0z9ySF8u8JPfa",
+      "full_name": "Mira Patel",
+      "role": "student",
+      "created_at": "2026-05-17T12:26:18.835978+00:00",
+      "_id": "6a09b3ea77a3d245716f56e4",
+      "id": "6a09b3ea77a3d245716f56e4"
+    },
+    {
+      "email": "demo_student_1779020775_3@example.com",
+      "password_hash": "$2b$12$F2RVsi4VNpPIfMEb9tC83OFWY9Zrkb3Qz9FpsWHiY4uYpr8QcnMrm",
+      "full_name": "Kabir Khan",
+      "role": "student",
+      "created_at": "2026-05-17T12:26:20.936865+00:00",
+      "_id": "6a09b3ec77a3d245716f56e7",
+      "id": "6a09b3ec77a3d245716f56e7"
+    },
+    {
+      "email": "demo_student_1779020775_4@example.com",
+      "password_hash": "$2b$12$DukqyW8J4q30LMDSi.vhBOSB.1dEEIT.Cs58d6Ac39Qb/vw1OYUfi",
+      "full_name": "Isha Rao",
+      "role": "student",
+      "created_at": "2026-05-17T12:26:23.122060+00:00",
+      "_id": "6a09b3ef77a3d245716f56ea",
+      "id": "6a09b3ef77a3d245716f56ea"
+    },
+    {
+      "email": "demo_student_1779020775_5@example.com",
+      "password_hash": "$2b$12$wrXtOWbmAW8Fo0ZkylNjMOU5t5qLGM8OfnJbf9fIo8KzK8uxlUEFa",
+      "full_name": "Neha Singh",
+      "role": "student",
+      "created_at": "2026-05-17T12:26:37.877293+00:00",
+      "_id": "6a09b3fd77a3d245716f56ed",
+      "id": "6a09b3fd77a3d245716f56ed"
+    },
+    {
+      "email": "harshingle654@gmail.com",
+      "password_hash": "$2b$12$1HIxr7H9l0dQhtrvZumwa.Am85kOnzjj255wGWOvfFc/wjD4mXEcG",
+      "full_name": "Harsh Shashikant Ingle",
+      "role": "teacher",
+      "created_at": "2026-10-15T15:51:01.478249+00:00",
+      "_id": "6ad0f66574d744c2d8a6b8d0"
+    }
+  ],
+  "documents": [
+    {
+      "teacher_id": "6a09ac3c8de0e73fd4dba1eb",
+      "filename": "SEBI Handout.pdf",
+      "pinecone_namespace": "doc-52f2c3ee74b74e6b96e2652b800428d8",
+      "chunk_count": 46,
+      "uploaded_at": "2026-05-17T12:01:44.737359+00:00",
+      "_id": "6a09ae28ffc6f87f282a9936"
+    },
+    {
+      "teacher_id": "6a09ac3c8de0e73fd4dba1eb",
+      "filename": "SEBI Handout.pdf",
+      "pinecone_namespace": "doc-f7ba07ef07fd413eb1f0b300e8492a44",
+      "chunk_count": 46,
+      "uploaded_at": "2026-05-17T12:09:42.379690+00:00",
+      "_id": "6a09b006893ca6e2c0501b6f"
+    },
+    {
+      "teacher_id": "6a09ac3c8de0e73fd4dba1eb",
+      "filename": "SEBI Grade A IT 2025.pdf",
+      "pinecone_namespace": "doc-7ed234518b23475387bf62725d296da1",
+      "chunk_count": 10,
+      "uploaded_at": "2026-05-17T12:15:45.307372+00:00",
+      "_id": "6a09b17177a3d245716f56df"
+    },
+    {
+      "teacher_id": "6a09ac3c8de0e73fd4dba1eb",
+      "filename": "SEBI Grade A IT 2025.pdf",
+      "pinecone_namespace": "doc-d502636926db4dce8d51da23445e9c01",
+      "chunk_count": 10,
+      "uploaded_at": "2026-05-17T12:29:22.790207+00:00",
+      "_id": "6a09b4a277a3d245716f56f0"
+    },
+    {
+      "teacher_id": "6a09ac3c8de0e73fd4dba1eb",
+      "filename": "SEBI Grade A IT 2025 (1).pdf",
+      "pinecone_namespace": "doc-0df34976009348c7bccd18582689569b",
+      "chunk_count": 10,
+      "uploaded_at": "2026-05-17T12:33:46.075138+00:00",
+      "_id": "6a09b5aa77a3d245716f56f1"
+    },
+    {
+      "teacher_id": "6a09ac3c8de0e73fd4dba1eb",
+      "filename": "SEBI Handout (1).pdf",
+      "pinecone_namespace": "doc-cabc37ada9994420b423fcbb798a28ea",
+      "chunk_count": 46,
+      "uploaded_at": "2026-05-18T05:15:06.864248+00:00",
+      "_id": "6a0aa05a77a3d245716f56f2"
+    }
+  ],
+  "quizzes": [
+    {
+      "student_id": "6a09b3e877a3d245716f56e1",
+      "document_id": "6a09b17177a3d245716f56df",
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "What is the primary role of SEBI in the securities market?",
+          "options": [
+            "To promote the development of the securities market",
+            "To regulate the securities market",
+            "To protect the interests of investors in securities",
+            "All of the above"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q2",
+          "question": "What is the educational qualification required for the General Stream in SEBI?",
+          "options": [
+            "Bachelor's Degree in Law",
+            "Master's Degree in any discipline",
+            "Bachelor's Degree in Engineering",
+            "Chartered Accountant"
+          ],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q3",
+          "question": "How many years of probation will the selected candidates undergo as Officers Grade 'A'?",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "4 years"
+          ],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q4",
+          "question": "What is the approximate gross emolument for an Officer in Grade A at Mumbai, without accommodation?",
+          "options": [
+            "\u20b91,00,000/- p.m.",
+            "\u20b91,43,000/- p.m.",
+            "\u20b91,84,000/- p.m.",
+            "\u20b92,00,000/- p.m."
+          ],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q5",
+          "question": "What is the upper age limit for a candidate to apply for the post of Officer Grade A, as on September 30, 2025?",
+          "options": [
+            "25 years",
+            "30 years",
+            "35 years",
+            "40 years"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "created_at": "2026-05-17T12:26:18.021419+00:00",
+      "_id": "6a09b3ea77a3d245716f56e2"
+    },
+    {
+      "student_id": "6a09b3ea77a3d245716f56e4",
+      "document_id": "6a09b17177a3d245716f56df",
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "What is the primary function of SEBI?",
+          "options": [
+            "To promote the development of and to regulate the securities market",
+            "To manage the stock exchange",
+            "To oversee the banking sector",
+            "To regulate the insurance industry"
+          ],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q2",
+          "question": "What is the educational qualification required for the General Stream in SEBI?",
+          "options": [
+            "Master's Degree in any discipline",
+            "Bachelor's Degree in Law",
+            "Bachelor's Degree in Engineering",
+            "All of the above"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q3",
+          "question": "How many years of probation will the selected candidates undergo as Officers Grade 'A'?",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "4 years"
+          ],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q4",
+          "question": "What is the approximate gross emolument for an Officer in Grade A at Mumbai, without accommodation?",
+          "options": [
+            "\u20b91,00,000/- p.m.",
+            "\u20b91,43,000/- p.m.",
+            "\u20b91,84,000/- p.m.",
+            "\u20b92,00,000/- p.m."
+          ],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q5",
+          "question": "What is the age limit for a candidate to apply for the post of Officer Grade A, as on September 30, 2025?",
+          "options": [
+            "25 years",
+            "30 years",
+            "35 years",
+            "40 years"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "created_at": "2026-05-17T12:26:20.021319+00:00",
+      "_id": "6a09b3ec77a3d245716f56e5"
+    },
+    {
+      "student_id": "6a09b3ec77a3d245716f56e7",
+      "document_id": "6a09b17177a3d245716f56df",
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "What is the primary role of SEBI in the securities market?",
+          "options": [
+            "To promote the development of the securities market",
+            "To regulate the securities market",
+            "To protect the interests of investors in securities",
+            "All of the above"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q2",
+          "question": "What is the educational qualification required for the General Stream in SEBI Officer Grade A recruitment?",
+          "options": [
+            "Master's Degree in any discipline",
+            "Bachelor's Degree in Law",
+            "Bachelor's Degree in Engineering",
+            "All of the above"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q3",
+          "question": "How many years of probation will the selected candidates undergo as Officers Grade 'A'?",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "4 years"
+          ],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q4",
+          "question": "What is the approximate gross emolument for an Officer in Grade A at the minimum of the scale without accommodation?",
+          "options": [
+            "\u20b91,00,000/- p.m.",
+            "\u20b91,43,000/- p.m.",
+            "\u20b91,84,000/- p.m.",
+            "\u20b92,00,000/- p.m."
+          ],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q5",
+          "question": "What is the upper age limit for a candidate to apply for the SEBI Officer Grade A recruitment?",
+          "options": [
+            "25 years",
+            "30 years",
+            "35 years",
+            "40 years"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "created_at": "2026-05-17T12:26:22.038598+00:00",
+      "_id": "6a09b3ee77a3d245716f56e8"
+    },
+    {
+      "student_id": "6a09b3ef77a3d245716f56ea",
+      "document_id": "6a09b17177a3d245716f56df",
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "What is the primary role of SEBI in the securities market?",
+          "options": [
+            "To promote the development of the securities market",
+            "To regulate the securities market",
+            "To protect the interests of investors in securities",
+            "All of the above"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q2",
+          "question": "What is the educational qualification required for the General Stream in SEBI Officer Grade A recruitment?",
+          "options": [
+            "Bachelor's Degree in any discipline",
+            "Master's Degree in any discipline",
+            "Bachelor's Degree in Law",
+            "Master's Degree/ Post Graduate Diploma in any discipline"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q3",
+          "question": "How many years of probation will the selected candidates undergo as Officers Grade 'A'?",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "4 years"
+          ],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q4",
+          "question": "What is the approximate gross emolument for an Officer in Grade A at the minimum of the scale without accommodation?",
+          "options": [
+            "\u20b91,00,000/- p.m.",
+            "\u20b91,43,000/- p.m.",
+            "\u20b91,64,000/- p.m.",
+            "\u20b91,84,000/- p.m."
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q5",
+          "question": "What is the age limit for a candidate to be eligible for the SEBI Officer Grade A recruitment?",
+          "options": [
+            "The candidate must not have exceeded the age of 25 years",
+            "The candidate must not have exceeded the age of 30 years",
+            "The candidate must not have exceeded the age of 35 years",
+            "The candidate must not have exceeded the age of 40 years"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "created_at": "2026-05-17T12:26:37.068539+00:00",
+      "_id": "6a09b3fd77a3d245716f56eb"
+    },
+    {
+      "student_id": "6a09b3fd77a3d245716f56ed",
+      "document_id": "6a09b17177a3d245716f56df",
+      "questions": [
+        {
+          "question_id": "q1",
+          "question": "What is the primary role of SEBI in the securities market?",
+          "options": [
+            "To promote the development of the securities market",
+            "To regulate the securities market",
+            "To protect the interests of investors in securities",
+            "All of the above"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q2",
+          "question": "What is the educational qualification required for the General Stream in SEBI?",
+          "options": [
+            "Bachelor's Degree in any discipline",
+            "Master's Degree in any discipline",
+            "Bachelor's Degree in Law",
+            "Master's Degree/ Post Graduate Diploma in any discipline"
+          ],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q3",
+          "question": "How many years of probation will the selected candidates undergo as Officers Grade 'A'?",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "4 years"
+          ],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q4",
+          "question": "What is the approximate gross emolument for an Officer in Grade A at Mumbai, without accommodation?",
+          "options": [
+            "\u20b91,00,000/- p.m.",
+            "\u20b91,43,000/- p.m.",
+            "\u20b91,84,000/- p.m.",
+            "\u20b92,00,000/- p.m."
+          ],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q5",
+          "question": "What is the upper age limit for a candidate to apply for the post of Officer Grade A, as on September 30, 2025?",
+          "options": [
+            "25 years",
+            "30 years",
+            "35 years",
+            "40 years"
+          ],
+          "correct_index": 1
+        }
+      ],
+      "created_at": "2026-05-17T12:26:43.351446+00:00",
+      "_id": "6a09b40377a3d245716f56ee"
+    }
+  ],
+  "quiz_submissions": [
+    {
+      "student_id": "6a09b3e877a3d245716f56e1",
+      "quiz_id": "6a09b3ea77a3d245716f56e2",
+      "score": 100.0,
+      "correct": 5,
+      "total": 5,
+      "submitted_at": "2026-05-17T12:26:18.071345+00:00",
+      "_id": "6a09b3ea77a3d245716f56e3"
+    },
+    {
+      "student_id": "6a09b3ea77a3d245716f56e4",
+      "quiz_id": "6a09b3ec77a3d245716f56e5",
+      "score": 80.0,
+      "correct": 4,
+      "total": 5,
+      "submitted_at": "2026-05-17T12:26:20.056947+00:00",
+      "_id": "6a09b3ec77a3d245716f56e6"
+    },
+    {
+      "student_id": "6a09b3ec77a3d245716f56e7",
+      "quiz_id": "6a09b3ee77a3d245716f56e8",
+      "score": 60.0,
+      "correct": 3,
+      "total": 5,
+      "submitted_at": "2026-05-17T12:26:22.078412+00:00",
+      "_id": "6a09b3ee77a3d245716f56e9"
+    },
+    {
+      "student_id": "6a09b3ef77a3d245716f56ea",
+      "quiz_id": "6a09b3fd77a3d245716f56eb",
+      "score": 40.0,
+      "correct": 2,
+      "total": 5,
+      "submitted_at": "2026-05-17T12:26:37.100069+00:00",
+      "_id": "6a09b3fd77a3d245716f56ec"
+    },
+    {
+      "student_id": "6a09b3fd77a3d245716f56ed",
+      "quiz_id": "6a09b40377a3d245716f56ee",
+      "score": 20.0,
+      "correct": 1,
+      "total": 5,
+      "submitted_at": "2026-05-17T12:26:43.388927+00:00",
+      "_id": "6a09b40377a3d245716f56ef"
+    }
+  ]
+}
