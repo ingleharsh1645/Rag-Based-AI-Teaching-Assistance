@@ -2,8 +2,8 @@ import streamlit as st
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
 import tempfile
 
 # Page Configuration
@@ -71,7 +71,7 @@ if prompt := st.chat_input("Ask a question about your course..."):
             try:
                 # Retrieve relevant documents
                 retriever = st.session_state.vector_store.as_retriever(search_kwargs={"k": 3})
-                relevant_docs = retriever.get_relevant_documents(prompt)
+                relevant_docs = retriever.invoke(prompt)
                 context = "\n\n".join([doc.page_content for doc in relevant_docs])
                 
                 # Direct Gemini LLM Call with Context

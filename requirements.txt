@@ -3,6 +3,7 @@ google-generativeai
 langchain
 langchain-core
 langchain-community
+langchain-text-splitters
 langchain-google-genai
 pypdf
 faiss-cpu
