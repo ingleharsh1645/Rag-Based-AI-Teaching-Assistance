@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import PyPDFLoader
@@ -75,3 +75,4 @@ if prompt := st.chat_input("Ask a question about your course..."):
         response = chain({"question": prompt, "chat_history": []})["answer"]
         st.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
+
